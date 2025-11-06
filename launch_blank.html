@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Launch Blank</title>
+    <script>
+        // Open a new blank tab
+        let blank = window.open('about:blank', '_blank');
+
+        // Optional: load a site in the blank tab after 1 second
+        setTimeout(() => {
+            blank.location.href = 'https://example.com';
+        }, 1000);
+    </script>
+</head>
+<body>
+    <h3>Opening a blank page...</h3>
+</body>
+</html>
